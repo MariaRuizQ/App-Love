@@ -102,6 +102,29 @@ a:hover {
   text-align: center;
 }
 
+.primera-linea{
+  text-transform: uppercase;
+  font-family:sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.segunda-linea{
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  font-family:sans-serif;
+  font-size: 50px;
+}
+
+.tercera-linea{
+  text-transform: uppercase;
+  padding: 0px;
+  margin-bottom: 50px;
+  font-family:sans-serif;
+  font-size: 12px;
+}
+
 .boton{
   margin: auto;
   color: white;
@@ -120,7 +143,7 @@ button{
 
 .segunda{
   vertical-align: middle;
-  background-color: pink;
+  background-color: #E9967A;
   position: relative;
   width: 100%;
   top: 500px;
@@ -128,7 +151,9 @@ button{
 }
 
 .segunda-parte{
+  color: white;
   width: 100%;
+  padding: 20px;
   text-align: center;
 }
 
@@ -137,8 +162,15 @@ button{
 }
 
 .tres-partes{
+  font-size: 10px;
+  padding: 0px;
+  margin: 0px;
   display: inline-block;
   width: 33%;
+}
+
+.filas{
+  margin: 5px;
 }
 
 .tercera{
@@ -162,7 +194,7 @@ button{
   float: left;
   position: relative;
   text-align: center;
-  transform: translateX(17.5%);
+  transform: translateX(12.5%);
 }
 
 .imagenes-proyecto{
@@ -177,9 +209,8 @@ button{
 }
 
 p{
-  text-align: center;
-  font-weight: bold;
-  position: relative;
+  margin-left: 120px;
+
 }
 
 .cuarta-parte{
