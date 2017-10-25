@@ -1,0 +1,133 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+header{
+  margin-left: 120px;
+  width: 100%
+}
+
+.logo{
+  width: 50px;
+}
+
+a {
+  color: #5F9EA0;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.primera{
+  position: relative;
+  width: 100%;
+}
+
+.primera-imagen{
+  vertical-align: middle;
+  position: absolute;
+  width: 100%;
+  }
+
+.primeraParte{
+  color: red;
+  position: relative;
+  text-align: center;
+
+}
+
+.segunda{
+  vertical-align: middle;
+  background-color: pink;
+  position: relative;
+  width: 100%;
+  top: 500px;
+  color: blue;
+}
+
+.segunda-parte{
+  width: 100%;
+  text-align: center;
+}
+
+.imagen-izquierda{
+  width: 150px;
+}
+
+.tres-partes{
+  display: inline-block;
+  width: 33%;
+}
+
+.tercera{
+  position: relative;
+  width: 100%;
+  top: 500px;
+}
+
+.tercera-parte{
+  width: 100%;
+  text-align: center;
+}
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
